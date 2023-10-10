@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Roboto+Slab:wght@100;300;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar bg">
+        <ul class="nav__links-container">
+          <li class="nav__link-item">
+            <a href="">Home</a>
+          </li>
+          <li class="nav__link-item">
+            <a href="">Explore</a>
+          </li>
+          <li class="nav__link-item">
+            <a href="#hero__section"
+              ><img src="./Img/logo.png" class="logo"
+            /></a>
+          </li>
+          <li class="nav__link-item">
+            <a href="">Services</a>
+          </li>
+          <li class="nav__link-item">
+            <a href="">Bookings</a>
+          </li>
+        </ul>
+      </nav>
+
+      <main class="hero__section" id="hero__section">
+        <div class="background">
+          <img src="Img/img1.png" class="background__img" />
+          <div class="slider__grid">
+            <div class="grid__item hide"></div>
+            <div class="grid__item hide"></div>
+            <div class="grid__item hide"></div>
+            <div class="grid__item hide"></div>
+            <div class="grid__item hide"></div>
+            <div class="grid__item hide"></div>
+          </div>
+        </div>
+
+        <div class="hero__section-content">
+          <h1 class="hero__section-title">Travel if you dare</h1>
+          <p class="hero__section-subtitle">
+            Where wanderlust meets exceptional experiences
+          </p>
+        </div>
+
+        <img src="Img/down arrow.png" class="scroll__down-icon" />
+      </main>
+    </header>
+
+    <section class="explore__section" id="explore-section">
+      <h1 class="section__title">
+        Discover, Explore, Experience Your Journey Awaits
+      </h1>
+      <p class="section__subtitle">
+        From exotic destinations to hidden gems, our mission is to help you
+        Discover new horizons, Explore diverse cultures, and Experience the
+        thrill of travel.
+      </p>
+    </section>
+
+    <div class="destination__container">
+      <div class="destination__card">
+        <img src="Img/australia.png" class="destination__card-img" />
+      </div>
+
+      <div class="destination__card">
+        <img src="Img/india.png" class="destination__card-img" />
+      </div>
+
+      <div class="destination__card">
+        <img src="Img/maldives.png" class="destination__card-img" />
+      </div>
+
+      <div class="destination__card">
+        <img src="Img/dubai.png" class="destination__card-img" />
+      </div>
+
+      <div class="destination__card">
+        <img src="Img/paris.png" class="destination__card-img" />
+      </div>
+
+      <div class="destination__card">
+        <img src="Img/italy.png" class="destination__card-img" />
+      </div>
+    </div>
+
+    <section class="services__section" id="services">
+      <h1 class="section__title">What we offer</h1>
+      <p class="section__subtitle">
+        Explore Our Diverse Range of Exceptional Travel and Tourism Services
+      </p>
+
+      <div class="services__grid">
+        <div class="service__card">
+          <div class="circle"></div>
+          <i class="fa-solid fa-book-open card-icon"></i>
+          <p class="service__text">
+            Broaden your mind, and explore different cultures
+          </p>
+        </div>
+
+        <div class="service__card">
+          <div class="circle"></div>
+          <i class="fa-solid fa-earth-america card-icon"></i>
+          <p class="service__text">
+            Explore this amazing big blue floating rock
+          </p>
+        </div>
+
+        <div class="service__card">
+          <div class="circle"></div>
+          <i class="fa-solid fa-coins card-icon"></i>
+          <p class="service__text">
+            Life is short, spend your money while your lungs still breathe air
+          </p>
+        </div>
+
+        <div class="service__card">
+          <div class="circle"></div>
+          <i class="fa-solid fa-person-snowboarding card-icon"></i>
+          <p class="service__text">Have the experience of a lifetime</p>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
