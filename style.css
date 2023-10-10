@@ -40,12 +40,12 @@
   --text-opacity: 0.5;
 }
 
-html,
 body {
   font-family: "Nunito", sans-serif;
   background: #161813;
   font-size: 1rem;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
@@ -332,4 +332,86 @@ span {
 
 .service__card:hover .circle {
   clip-path: circle(141.4% at 100% 100%);
+}
+
+.travel__grid {
+  width: 100%;
+  height: auto;
+  columns: 3;
+  column-gap: 1.5rem;
+  margin-top: 5rem;
+}
+
+.travel__grid img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.gradient__ball-big {
+  z-index: -1;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  background: var(--sphere-gradient-one);
+  right: -250px;
+}
+
+.booking__section {
+  position: relative;
+  display: flex;
+  padding: 0 10vw;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap: 2rem;
+}
+
+.booking__img {
+  position: absolute;
+  right: 0;
+  max-width: 50%;
+}
+
+.booking__content {
+  color: #eee;
+}
+
+.booking__title {
+  font-size: 7rem;
+  width: 70%;
+  font-weight: 800;
+  opacity: var(--text-opacity);
+}
+
+.booking__subtitle {
+  font-size: 1.3rem;
+  width: 35%;
+  line-height: 2rem;
+  opacity: var(--text-opacity);
+}
+
+.booking__btn {
+  padding: 1rem;
+  width: 20%;
+  border: none;
+  outline: none;
+  border-radius: .2rem;
+  color: #eee;
+  background: #2d2d2d;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.gradient__ball-small {
+  z-index: -1;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: var(--sphere-gradient-two);
+  left: -125px;
+  bottom: -100px;
 }
